@@ -1,0 +1,206 @@
+/*Variables*/
+:root{
+    --firstColor: #EAE7DC;
+    --secondColor: #D8C3A5;
+    --textColor: #606060;
+    --highlightColor: #E85A4F;
+
+    --cursive: 'Kaushan Script', cursive;
+    --serif: 'Arapey', serif;
+}
+
+
+
+/*Typography*/
+.page-title{
+    color: var(--highlightColor);
+    font-family: var(--cursive);
+    font-size: 65pt;
+    font-size: 8.5rem;
+}
+
+.page-subtitle{
+    color: var(--highlightColor);
+    font-family: var(--serif);
+    font-size: 25pt;
+    font-size: 3.4rem;
+}
+
+.section-heading{
+    color: var(--highlightColor);
+    font-family: var(--cursive);
+    font-size: 40pt;
+    font-size: 5rem;
+    text-align: center;
+}
+
+.body-text{
+    color: var(--textColor);
+    font-family: var(--serif);
+    font-size: 1.6rem;
+    text-align: justify;
+    font-weight: 400;
+}
+
+.btn-text{
+    color: var(--highlightColor);
+    font-family: var(--cursive);
+    font-size: 14pt;
+    font-size: 2rem;
+    line-height: 2pt;
+    margin-left: -10vw;
+    animation: bounce 0.5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+.btn-text:hover{
+    color: var(--textColor);
+    text-decoration: none;
+    fill: var(--textColor) !important;
+}
+
+ul.dashed {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 1em;
+}
+ul.dashed > li:before {
+    display: inline-block;
+    content: "-";
+    width: 1em;
+    margin-left: -1em;
+}
+
+.card ul.dashed{
+    padding-left: 1.5em;
+}
+
+#footer-container .body-text{
+    text-align: center;
+    margin-top: 7.5%;
+    font-size: 9pt;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+
+#footer-container a:hover{
+    color: var(--highlightColor);
+    text-decoration: none;
+}
+
+
+
+/*Decorations*/
+.character{ /*Size needs a media query to enlarge for smaller screens (not sure if its necessary now)*/
+    width: 25vw;
+    position: absolute;
+    bottom: -3vh;
+    left: 10vw;
+    transform: rotate(343deg);
+    z-index: 0;
+}
+
+.caveat{
+    height: 4vh;
+}
+
+.caveat:hover{
+    fill: var(--textColor) !important;
+    cursor: pointer;
+}
+
+.portrait {
+  height: 60%;
+  width: 40%;
+  border-radius: 100%;
+  margin-top: 10%;
+  background-color: var(--highlightColor);
+  margin-bottom: 2vh;
+}
+
+.block-img{
+    width: 30vmin;
+    height: 20vmin;
+}
+
+#diseases svg{
+    fill: var(--highlightColor);
+}
+
+#contact .icon{
+    color: var(--highlightColor);
+}
+
+
+
+
+/*Sections*/
+section{
+    padding-bottom: 2%;
+}
+
+.col-sm-12{
+    margin-top: 3vh;
+}
+
+#hero{
+    position: relative;
+    background-color: var(--firstColor);
+    height: 100vh;
+    overflow: hidden;
+}
+
+#hero .hero-text{
+    margin-top: 16vh;
+}
+
+#about{
+    background-color: var(--secondColor);
+    color: var(--textColor);
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#tcm{
+    background-color: var(--firstColor);
+}
+
+#diseases{
+    background-color: var(--secondColor);
+}
+
+#cures{
+    background-color: var(--firstColor);
+}
+
+#contact{
+    background-color: var(--secondColor)
+}
+
+#footer{
+    background-color: var(--firstColor);
+}
+
+#footer-container{
+    width: 60%;
+}
+
+#footer .col-xs-2{
+    margin-top: 2%;
+}
+
+
+/*Positioning*/
+.bottom{
+    position: absolute;
+    bottom: 3vh;
+}
+
+
+
+/*Animations*/
+@keyframes bounce {
+  from { transform: translate3d(0, 0, 0);     }
+  to   { transform: translate3d(0, -20px, 0); }
+}

@@ -1,0 +1,149 @@
+/*Variables*/
+:root{
+    --firstColor: #EAE7DC;
+    --textColor: #606060;
+    --highlightColor: #E85A4F;
+
+    --cursive: 'Kaushan Script', cursive;
+    --serif: 'Arapey', serif;
+}
+
+
+
+/*Navbar*/
+.navbar{
+    border-radius: 0px;
+    border: none;
+    background-color: var(--firstColor);
+    color: var(--textColor);
+}
+
+.navbar-header .navbar-brand{
+    color: var(--highlightColor);
+    font-family: var(--cursive);
+    font-size: 20pt;
+    font-size: 2.8rem;
+}
+
+.navbar-header button span{
+    background: var(--textColor);
+}
+
+.navbar-header button:hover{
+    background: var(--highlightColor);
+}
+
+.navbar-nav li a{
+    color: var(--textColor);
+    font-family: var(--serif);
+    font-size: 15pt;
+    font-size: 2rem;
+}
+
+.navbar-nav li a:hover{
+    color: var(--highlightColor);
+    background: var(--firstColor);
+}
+
+
+
+/*Cards*/
+.row{
+    margin-bottom: 2%;
+}
+
+.card{
+    background: none;
+    border: 2px solid var(--highlightColor);
+    overflow: hidden;
+    margin-bottom: 2%;
+}
+
+#diseases .card{ /*Need to make everything a bit smaller on small screen sizes*/
+    width: 100%;
+    margin: auto;
+    background: none;
+    border: 2px solid var(--highlightColor);
+    overflow: hidden;
+    margin-bottom: 2%;
+    height: 30vh;
+}
+
+.card:hover{
+    border: 2px solid var(--textColor) !important;
+}
+
+#diseases .card-img-top{
+    display: block;
+    margin: auto;
+    height: 12.5vh;
+    padding: 5%;
+}
+
+.card .card-title{
+    font-family: var(--cursive);
+    color: var(--textColor);
+    font-size: 13pt;
+    font-size: 1.75rem;
+}
+
+.card .card-text{
+    font-family: var(--serif);
+    font-size: 9pt;
+    font-size: 1.25rem;
+    color: var(--textColor);
+}
+
+#cures .card {
+	background-color: none;
+	display: flex;
+	flex-flow: row nowrap;
+	min-height: 100%;
+	width: 100%;
+}
+
+#cures .card .card-img-left {
+    align-self: center;
+    align-content: center;
+    text-align: center;
+	background-color: none;
+    padding: 5%;
+    order: 1;
+    width: 25%;
+}
+
+#cures .card .card-img-left img{
+    width: 100%;
+    height: 100%;
+    align-self: center;
+}
+
+#cures .card .card-body {
+    padding: 5%;
+    order: 3;
+}
+
+
+
+/*Forms*/
+#contact form{
+    width: 75%;
+    margin: auto;
+}
+
+#contact form input, #contact form textarea{
+    border-radius: 2px;
+    box-shadow: none;
+}
+
+#contact form input:hover, #contact form textarea:hover{
+    border: 1.5px solid var(--textColor);
+}
+#contact form input:focus, #contact form textarea:focus{
+    border: 1.5px solid var(--highlightColor);
+}
+
+#contact .btn-primary{
+    background-color: var(--highlightColor);
+    border: none;
+}
