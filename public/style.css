@@ -111,17 +111,36 @@ ul.dashed > li:before {
 }
 
 .portrait {
-  height: 60%;
-  width: 40%;
+  height: 30vmin;
+  width: auto;
   border-radius: 100%;
-  margin-top: 10%;
+  /*margin-top: 10%;*/
   background-color: var(--highlightColor);
   margin-bottom: 2vh;
+  margin: auto;
 }
 
 .block-img{
     width: 30vmin;
     height: 20vmin;
+}
+
+#blur_1{
+    background-image: url("http://127.0.0.1:5500/public/IMG/Gu_3.jpg") !important;
+    background-size: cover;
+    width: 30vmin;
+    height: 20vmin;
+    /* you need to match the shadow color to your background or image border for the desired effect*/
+    box-shadow: 0 0 8px 8px var(--firstColor) inset;
+}
+
+#blur_2{
+    background-image: url("http://127.0.0.1:5500/public/IMG/Gu_4.jpg") !important;
+    background-size: cover;
+    width: 30vmin;
+    height: 20vmin;
+    /* you need to match the shadow color to your background or image border for the desired effect*/
+    box-shadow: 0 0 8px 8px var(--firstColor) inset;
 }
 
 #diseases svg{
