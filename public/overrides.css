@@ -147,3 +147,22 @@
     background-color: var(--highlightColor);
     border: none;
 }
+
+
+
+/* Responsive */
+@media only screen and (max-width: 992px) {
+    #diseases .card-img-top{
+        width: 25%;
+        height: auto;
+    }
+
+    #diseases #large{
+        width: 20%;
+        height: auto;
+    }
+
+    #diseases .card{
+        text-align: center;
+    }
+}
