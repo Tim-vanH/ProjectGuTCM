@@ -60,7 +60,7 @@
 }
 
 #diseases .card{ /*Need to make everything a bit smaller on small screen sizes*/
-    width: 100%;
+    width: 110%;
     margin: auto;
     background: none;
     border: 2px solid var(--highlightColor);
