@@ -99,6 +99,7 @@ ul.dashed > li:before {
     left: 10vw;
     transform: rotate(343deg);
     z-index: 0;
+    fill: var(--highlightColor) !important;
 }
 
 .caveat{
