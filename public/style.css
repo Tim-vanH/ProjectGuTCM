@@ -127,7 +127,7 @@ ul.dashed > li:before {
 }
 
 #blur_1{
-    background-image: url("http://127.0.0.1:5500/public/IMG/Gu_3.jpg") !important;
+    background-image: url("/public/IMG/Gu_3.jpg") !important;
     background-size: cover;
     width: 30vmin;
     height: 20vmin;
@@ -136,7 +136,7 @@ ul.dashed > li:before {
 }
 
 #blur_2{
-    background-image: url("http://127.0.0.1:5500/public/IMG/Gu_4.jpg") !important;
+    background-image: url("/public/IMG/Gu_4.jpg") !important;
     background-size: cover;
     width: 30vmin;
     height: 20vmin;
