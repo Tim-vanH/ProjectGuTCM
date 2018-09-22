@@ -172,4 +172,8 @@
     .large-only{
         display: none;
     }
+
+    body{
+        text-align: left;
+    }
 }
