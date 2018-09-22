@@ -166,3 +166,10 @@
         text-align: center;
     }
 }
+
+/*Responsive*/
+@media only screen and (max-width: 768px) {
+    .large-only{
+        display: none;
+    }
+}
