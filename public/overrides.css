@@ -173,7 +173,7 @@
         display: none;
     }
 
-    body{
-        text-align: left;
+    p{
+        text-align: left !important;
     }
 }
